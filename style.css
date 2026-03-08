@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif
+}
+body,html{
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: rgb(10, 180, 149);
+}
+.nav{
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 70%;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    position: fixed;
+    top: 10px;
+    border-radius: 10px;
+    top: 10px;
+}
+.navbutton{
+    display: flex;
+    gap: 20px;
+}
+.browser{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 0;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    
+}
+.orders{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+.text{
+    height: 300px; ;
+    width: 100%;
+    background-color: rgb(7, 168, 139);
+}
