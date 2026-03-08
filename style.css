@@ -1,3 +1,7 @@
+@font-face {
+    font-family: satvik;
+    src: url(./assets/astroz-20260308T053244Z-3-001/astroz/Astroz\ Trial.ttf)
+}
 *{
     padding: 0;
     margin: 0;
@@ -17,7 +21,7 @@ body,html{
     background: rgb(10, 180, 149);
 }
 .nav{
-    background-color: rgba(255, 255, 255, 0.349);
+    background-color: white;
     width: 70%;
     display: flex;
     padding: 15px;
@@ -28,6 +32,9 @@ body,html{
     top: 10px;
     border-radius: 10px;
     top: 10px;
+}
+.logo{
+    font-family: satvik;
 }
 .navbutton{
     display: flex;
@@ -54,4 +61,15 @@ body,html{
     height: 300px; ;
     width: 100%;
     background-color: rgb(7, 168, 139);
+}
+.herovideo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
